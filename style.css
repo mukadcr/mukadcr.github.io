@@ -1,0 +1,232 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#fundo-header{
+	background-image: url(imagens/mario.jpg);
+	padding-bottom: 150px;	 
+}
+
+
+#logo{
+	max-width: 500px;
+	margin: 0 auto; 
+	
+}
+
+#logo img{
+	width: 100%;
+}
+
+nav {
+	width: 100%;
+	background-color: #373737;
+	text-align: center;
+}
+#menu{
+	width: 100%;
+	margin: 10px 0;
+
+}
+#menu ul li {
+	padding: 20px 50px;
+	display: inline-block;
+}
+#menu a{
+	color: #fff;
+	font-family: verdana;
+	font-size: 12px;
+	text-decoration: none;	
+}
+
+@media screen and (max-width: 620px){
+	nav{
+		display: inline-block;
+		}
+		#menu ul li {
+			width: 100%;
+			padding: 20px 0;
+		}
+		#menu ul li a{
+			text-align: center;
+		}
+	}
+
+#menu a:hover{
+	color:#00c6c6;
+}
+
+#container{
+	
+	width: 945px;
+	min-height: 400px;
+	margin: 0 auto;
+	
+}
+
+
+.chamada{
+	
+	width: 245px;
+	height: 236px;
+	float:left;
+	margin-top: 100px;
+	margin-left: 55px;
+	text-align: center;
+}
+
+@media (max-width: 850px){
+	.chamada{
+		width: 100%;
+		position: absolute;
+	}
+}
+
+footer{
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	background-color: #c3c3c3;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+}
+
+@media screen and (min-width: 1200px){
+	footer{
+		position:absolute
+		}
+	}
+#galeria{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+
+}
+
+#galeria img{
+	width: 750px;
+	margin-bottom: 20px;
+}
+
+figcaption h3{
+	font-size: 30px;
+	font-family: Arial;
+	text-align: center;
+}
+
+h3 p{
+	font-family: Arial;
+	text-align: center;
+}
+
+figure.senac-legenda{
+	position: relative;
+	border: 8px solid #fff;
+	box-shadow: 1px 1px 4px #000;
+}
+
+figure.senac-legenda img{
+	width: 100%;
+	height: 100%;
+}
+
+figure.senac-legenda figcaption{
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0,0,0,.4);
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: opacity 1s;
+}
+
+figure.senac-legenda:hover figcaption{
+	opacity: 1;
+}
+
+
+form{
+	text-align: center;
+	margin: 100px auto;
+	font-family: Arial;
+	font-size: 16px;
+	border: 2px solid #fff;
+	box-shadow: 1px 1px 8px #000;
+	width: 400px;
+	margin: 50px auto;
+	max-width: 100%;
+}
+
+
+section h2{
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	font-family: Arial;
+}
+
+p{
+	
+	text-align: center;
+	font-family: Arial;
+}
+
+.botao{
+	text-decoration: none;
+}
+
+.img-max{
+	max-width: 100%;
+}
+
+.chamada img{
+	max-width: 100%;
+	
+}
+
+figcaption p{
+	text-align: center;
+	text-indent: 35px;
+	font-family: arial;
+	font-size: 20px;		
+}
+
+#perfil img{
+	max-width: 600px;
+	
+
+}
+
+#perfil figcaption{
+	max-width: 600px;
+    
+}
+
+#perfil figure.senac-legenda{
+	max-width: 600px;
+	
+}
+
+#home h1{
+	font-size: 40px;
+	font-family: Arial;
+	margin:100px;
+
+}
+
+#home p{
+	font-size: 20px;
+}
+
+#container {
+	text-align: center;
+	margin: auto
+}
