@@ -64,24 +64,6 @@ nav {
 	
 }
 
-
-.chamada{
-	
-	width: 245px;
-	height: 236px;
-	float:left;
-	margin-top: 100px;
-	margin-left: 55px;
-	text-align: center;
-}
-
-@media (max-width: 850px){
-	.chamada{
-		width: 100%;
-		position: absolute;
-	}
-}
-
 footer{
 	width: 100%;
 	height: auto;
@@ -103,11 +85,12 @@ footer{
 	align-items: center;
 	padding-top: 20px;
 
+
 }
 
 #galeria img{
 	width: 750px;
-	margin-bottom: 20px;
+	
 }
 
 figcaption h3{
@@ -200,19 +183,16 @@ figcaption p{
 
 #perfil img{
 	max-width: 600px;
-	
+	display: block;
+	margin: 0 auto;
+	width: 100%;
 
 }
 
-#perfil figcaption{
-	max-width: 600px;
-    
-}
 
-#perfil figure.senac-legenda{
-	max-width: 600px;
-	
-}
+
+
+
 
 #home h1{
 	font-size: 40px;
@@ -225,7 +205,8 @@ figcaption p{
 	font-size: 20px;
 }
 
-#container {
-	text-align: center;
-	margin: auto
+#container img{
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
 }
